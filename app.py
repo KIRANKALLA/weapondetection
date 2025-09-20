@@ -18,7 +18,7 @@ st.sidebar.header("Model & Source")
 
 model_path = st.sidebar.text_input(
     "Model path (.pt)",
-    value=r"d:/datasets/weapons/wd.pt",
+    value=r"wd.pt",
     help="Absolute or relative path to your trained YOLO weights.",
     key="model_path",
 )
