@@ -19,7 +19,7 @@ st.sidebar.header("Model & Source")
 model_path = st.sidebar.text_input(
     "Model path (.pt)",
     value=r"wd.pt",
-    help="Absolute or relative path to your trained YOLO weights.",
+    help="Absolute or relative path to your trained algorithm weights.",
     key="model_path",
 )
 
@@ -191,7 +191,7 @@ def open_video_capture(mode, uploaded_file, local_path_str, cam_idx):
 # =========================
 # Main UI
 # =========================
-st.title("🔫 Gun Detection (YOLO + Streamlit)")
+st.title(" Weapon Detection and Tracking ")
 
 with st.expander("Notes & Tips", expanded=False):
     st.markdown(
