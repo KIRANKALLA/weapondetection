@@ -9,7 +9,7 @@ import numpy as np
 import streamlit as st
 from ultralytics import YOLO
 
-st.set_page_config(page_title="Gun Detection using advanced deep learning algorithms", layout="wide")
+st.set_page_config(page_title="Weapon Detection using advanced deep learning algorithms", layout="wide")
 
 # =========================
 # Sidebar controls (single creation; no widgets in loops)
